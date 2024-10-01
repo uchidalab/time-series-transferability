@@ -1,8 +1,5 @@
-model_save
 model_save/*
-data
 data/*
-nohup.out
 pycache
 __pycache__/*
 shapelets/*

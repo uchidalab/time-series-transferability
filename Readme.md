@@ -1,5 +1,5 @@
 # Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification
-This repository is to introduce our paper "Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification", accepted at ICPR 2024 (International Conference on Pattern Recognition 2024) and also available in ArXiv.
+This repository is to introduce our paper "Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification", accepted at ICPR 2024 (International Conference on Pattern Recognition 2024) and also available in [ArXiv](https://arxiv.org/abs/2409.20005).
 
 ### Multi-source Transfer Learning
 <p align="center">
@@ -38,7 +38,7 @@ python calculate_shapelet_distance.py
 
 #### Multi-source Transfer Learning
 This does multi-source tranfer learning with the rankings of shapelet-based similarity.
-The following lines conducts multi-source transfer learning with 10 sources selected by Minimum Shapelet for all the 128 UCR Archive datasets.
+The following line conducts multi-source transfer learning with 10 sources selected by Minimum Shapelet for all the 128 UCR Archive datasets.
 ```
 python main.py -dn 10 --target experiment --metric Minimum_Shapelet
 ```
@@ -46,7 +46,12 @@ python main.py -dn 10 --target experiment --metric Minimum_Shapelet
 <!-- ### Citation
 If you use this repository, please cite as the following:
 ```
-
+@inproceedings{lee2024model,
+  title={Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification},
+  author={Lee, Jiseok and Iwana, Brian Kenji},
+  booktitle={International Conference on Pattern Recognition (ICPR)},
+  year={2024},
+}
 ``` -->
 
 ### Contact
