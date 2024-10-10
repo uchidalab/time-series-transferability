@@ -1,5 +1,5 @@
 # Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification
-This repository is to introduce our paper "Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification", accepted at ICPR 2024 (International Conference on Pattern Recognition 2024) and also available in [ArXiv](https://arxiv.org/abs/2409.20005).
+This repository is to introduce our paper "Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification", accepted at ICPR 2024 (International Conference on Pattern Recognition 2024) and also available in [arXiv](https://arxiv.org/abs/2409.20005).
 
 ### Multi-source Transfer Learning
 <p align="center">
@@ -13,7 +13,7 @@ docker build -t transferlearn .
 ```
 
 ### Dataset
-This repository uses the UCR Time Series Archive 2018 datasets. To install the datasets, download the .zip file from https://www.cs.ucr.edu/~eamonn/time_series_data_2018/, and extract the contents into the "data/".
+This repository uses the UCR Time Series Archive 2018 datasets. To install the datasets, download the .zip file from [hear](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/), and extract the contents into the "data/".
 
 ### Code
 The codes are divided into three parts: Shapelet Discovery, Dataset Ranking with Shapelet-based Similarity, and Multi-source Transfer Learning.
@@ -43,16 +43,16 @@ The following line conducts multi-source transfer learning with 10 sources selec
 python main.py -dn 10 --target experiment --metric Minimum_Shapelet
 ```
 
-<!-- ### Citation
-If you use this repository, please cite as the following:
+### Citation
+If you use this repository, please cite us as follows:
 ```
-@inproceedings{lee2024model,
+@article{lee2024model,
   title={Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification},
   author={Lee, Jiseok and Iwana, Brian Kenji},
-  booktitle={International Conference on Pattern Recognition (ICPR)},
-  year={2024},
+  journal={arXiv preprint arXiv:2409.20005},
+  year={2024}
 }
-``` -->
+```
 
 ### Contact
 jiseok.lee@human.ait.kyushu-u.ac.jp
