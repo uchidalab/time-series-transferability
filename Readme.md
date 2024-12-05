@@ -46,11 +46,13 @@ python main.py -dn 10 --target experiment --metric Minimum_Shapelet
 ### Citation
 If you use this repository, please cite us as follows:
 ```
-@article{lee2024model,
-  title={Model Selection with a Shapelet-based Distance Measure for Multi-source Transfer Learning in Time Series Classification},
+@inproceedings{lee2024model,
+  title={Model Selection with a Shapelet-Based Distance Measure for Multi-source Transfer Learning in Time Series Classification},
   author={Lee, Jiseok and Iwana, Brian Kenji},
-  journal={arXiv preprint arXiv:2409.20005},
-  year={2024}
+  booktitle={International Conference on Pattern Recognition},
+  pages={160--175},
+  year={2024},
+  organization={Springer}
 }
 ```
 
