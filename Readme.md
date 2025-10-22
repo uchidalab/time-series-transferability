@@ -30,7 +30,7 @@ The codes are modified from the following link
 ##### References
 - Yeh, Chin-Chia Michael, et al. "Matrix profile I: all pairs similarity joins for time series: a unifying view that includes motifs, discords and shapelets." 2016 IEEE 16th international conference on data mining (ICDM). Ieee, 2016.
 
-#### Calculate Shapelet-based Similariy
+#### Calculate Shapelet-based Similarity
 This is to calculate our novel method of Shapelet-based Similarity for transferability estimation.
 ```
 python calculate_shapelet_distance.py
